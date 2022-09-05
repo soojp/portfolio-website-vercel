@@ -26,4 +26,4 @@ I wanted to make my pages have 2 columns when the screen is medium sized (768 px
 ### Lighthouse on the deployed webiste
 ![Website Lighthouse](https://user-images.githubusercontent.com/101828681/188364329-fe01c2f9-406c-4236-a0d6-257b0264e573.png)
 
-## Status: Ongoing (will add more things as I grow as a developer)
+## Status: Ongoing (I will add more things as I grow as a developer)
