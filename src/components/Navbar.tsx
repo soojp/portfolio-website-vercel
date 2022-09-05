@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="flex items-center justify-between p-4 text-sm">
+    <div className="flex items-center justify-between p-3 text-sm">
       <h1 className="font-bold text-3xl flex items-center">
         <img src="sp192.png" alt="logo" className="w-10 h-10 mr-4"></img>
         <span className="invisible md:visible">Soo Jee Park</span>
