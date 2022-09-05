@@ -9,15 +9,15 @@ I wanted to make my pages have 2 columns when the screen is medium sized (768 px
 
 ## Home Page --About Me
 ### 2 column layout
-![About Me](https://user-images.githubusercontent.com/101828681/188363761-51968b12-6456-46a0-904c-72d891cccf24.png)
-### 1 column layout
-![About Me 1 ](https://user-images.githubusercontent.com/101828681/188363898-8c1762b5-9dc7-451a-a9ce-fe84e0884413.png)
-### Layout on small screen (phone)
+![About Me](https://user-images.githubusercontent.com/101828681/188488813-a5b43b29-9fff-4bdb-bb9e-be70d945acc3.png)
+
+
+### 1 column layout on small screen (phone)
 ![Phone](https://user-images.githubusercontent.com/101828681/188488592-b4857080-f3a2-4be0-81ba-3a40bcd206f5.jpg)
 
 
 ## My Projects Page
-![My Projects](https://user-images.githubusercontent.com/101828681/188363792-150ff9c3-f6e6-49fb-bc09-db0ab247cc88.png)
+![My Projects](https://user-images.githubusercontent.com/101828681/188488886-e9f49872-bcd9-4e43-a2e2-4fb2d22948da.png)
 
 ## Lighthouse
 ### Before having Font Awesome Icons (Used AWS S3 to serve images of the LinkedIn and GitHub icons)
