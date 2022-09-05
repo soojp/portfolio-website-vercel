@@ -10,7 +10,7 @@ const Footer = () => {
     <div className="fixed bottom-0 left-0 bg-red-300 min-w-full p-1 flex justify-center items-center">
       <div className="mr-5">
         <p>
-          Click on the LinkedIn and GitHub logos to checkout my profiles on the
+          Click on the LinkedIn and GitHub logos to view my profiles on the
           corresponding sites
         </p>
       </div>
