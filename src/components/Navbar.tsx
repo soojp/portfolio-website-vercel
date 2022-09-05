@@ -16,7 +16,11 @@ const Navbar = () => {
           </NavLink>
         </li>
         <li className="mr-6">
-          <a href="Resume.pdf" className="hover:text-fuchsia-600">
+          <a
+            href="Resume.pdf"
+            className="hover:text-fuchsia-600"
+            target="_blank"
+          >
             My Resume
           </a>
         </li>
