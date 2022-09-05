@@ -39,6 +39,7 @@ const Projects = () => {
             "JavaScript",
             "HTML",
             "CSS",
+            "Bootstrap",
             "Balsamiq",
           ]}
         />
