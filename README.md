@@ -1,4 +1,7 @@
 # My Personal Website
+## Purpose/major function: to give information about me and some of my projects
+## Dependencies: Font Awesome, React, React-dom, Axios, React-router-dom, Typescript
+## Build/Deploy instructions: npm run build (create-react-app)
 
 ## Figma Wireframe
 ![Basic Framework](https://user-images.githubusercontent.com/101828681/188363445-2e440dd6-69a6-487d-b3a9-09c46c828f28.png)
