@@ -8,7 +8,28 @@ const Projects = () => {
       <div className="flex justify-center">
         <div className="grid grid-cols-1 justify-items-center md:grid-cols-2">
           <Card
+            image="https://soojpimages.s3.us-west-1.amazonaws.com/abcocktails.png"
+            site="abcocktails.us"
+            link="https://github.com/soojp/ABCocktails"
+            title="ABCocktails"
+            description="A site that features cocktails, a random cocktail generator, and a search feature by name or ingredients with full CRUD function."
+            tags={[
+              "React",
+              "MongoDB",
+              "Mongoose",
+              "Express",
+              "Node.js",
+              "JavaScript",
+              "HTML",
+              "CSS",
+              "Tailwind CSS",
+              "Bcrypt",
+              "External API",
+            ]}
+          />
+          <Card
             image="https://soojpimages.s3.us-west-1.amazonaws.com/expenseCalculator.png"
+            site={null}
             link="https://github.com/soojp/Expense-Calculator.git"
             title="Expense Calculator"
             description="An expense calculator with full CRUD function where you can add items per a category by user. You can see the total amount spent per category as well as total amount spent between all the categories. The details page shows you all the items in the category as well as the sum."
@@ -28,6 +49,7 @@ const Projects = () => {
           />
           <Card
             image="https://soojpimages.s3.us-west-1.amazonaws.com/just.eat.png"
+            site={null}
             link="https://github.com/soojp/Just.eat.git"
             title="Just.eat"
             description="An app with full CRUD function that can randomly choose a cuisine from a preference form. The goal is to be able to feed the information from the form to an API in order to select a random restaurant using cuisine type, zipcode, and radius. I did try using the Yelp-fusion API, however, there was a CORS conflict. I am still searching for a suitable API in order to continue this project."
