@@ -2,21 +2,37 @@ import React from "react";
 
 interface CardProps {
   image: string;
+  site: string | null;
   link: string;
   title: string;
   description: string;
   tags: string[];
 }
 
-const Card = ({ image, link, title, description, tags }: CardProps) => {
+const Card = ({ image, site, link, title, description, tags }: CardProps) => {
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg m-6 bg-white">
-      <img className="w-full h-50" src={image} alt={title} />
+      <img className="w-full h-50 p-2" src={image} alt={title} />
       <div className="px-6">
         <div className="font-bold text-xl mb-2">
           <p>{title}</p>
         </div>
         <p className="text-base">{description}</p>
+        {site ? (
+          <div>
+            <p className="font-bold">
+              Check out the site{" "}
+              <span>
+                <a
+                  href={site}
+                  className="underline font-bold text-purple-700 hover:text-fuchsia-600"
+                >
+                  here
+                </a>
+              </span>{" "}
+            </p>
+          </div>
+        ) : null}
         <a
           href={link}
           className="underline text-purple-700 hover:text-fuchsia-600"
