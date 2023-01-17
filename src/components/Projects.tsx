@@ -9,7 +9,7 @@ const Projects = () => {
         <div className="grid grid-cols-1 justify-items-center md:grid-cols-2">
           <Card
             image="https://soojpimages.s3.us-west-1.amazonaws.com/abcocktails.png"
-            site="abcocktails.us"
+            site="https://abcocktails.us"
             link="https://github.com/soojp/ABCocktails"
             title="ABCocktails"
             description="A site that features cocktails, a random cocktail generator, and a search feature by name or ingredients with full CRUD function."
