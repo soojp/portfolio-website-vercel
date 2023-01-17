@@ -29,7 +29,6 @@ const Projects = () => {
           />
           <Card
             image="https://soojpimages.s3.us-west-1.amazonaws.com/expenseCalculator.png"
-            site={null}
             link="https://github.com/soojp/Expense-Calculator.git"
             title="Expense Calculator"
             description="An expense calculator with full CRUD function where you can add items per a category by user. You can see the total amount spent per category as well as total amount spent between all the categories. The details page shows you all the items in the category as well as the sum."

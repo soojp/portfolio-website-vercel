@@ -2,7 +2,7 @@ import React from "react";
 
 interface CardProps {
   image: string;
-  site: string | null;
+  site?: string;
   link: string;
   title: string;
   description: string;
